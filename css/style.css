@@ -1,3 +1,65 @@
+/* general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
+  background-image: url(../img/park.jpg);
+  background-size: cover;
+}
+
+.container {
+  width: 50%;
+  margin: 20px auto;
+}
+
+/* intestazione */
+
+header{
+  height: 300px;
+  background-color: yellow;
+}
+
+.img-intestazione{
   background-color: red;
+  height: 250px;
+}
+
+nav {
+  background-color: grey;
+  height: 50px;
+}
+
+/* fine intestazione */
+
+/* parte principale */
+
+main::after{
+  display: table;
+  content: "";
+  clear: both;
+}
+
+aside{
+  background-color: violet;
+  width: 25%;
+  height: 200px;
+  float:left;
+}
+
+section{
+  background-color: blue;
+  width: 50%;
+  height: 500px;
+  float: left;
+}
+
+
+/* footer */
+
+footer{
+  background-color: lightblue;
+  height: 100px;
 }
